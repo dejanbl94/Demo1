@@ -18,6 +18,7 @@ namespace Niti
             for (int i = 0; i < 50; i++)//This will not wait for Ispis() to finish as we have separated threads for the methods..
             {
                 Console.WriteLine("Main thread: {0} ", i);
+                Console.WriteLine("ANASTASIJA");
                 Thread.Sleep(0);
             }
             t.Join();
