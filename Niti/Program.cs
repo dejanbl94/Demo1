@@ -5,6 +5,7 @@ namespace Niti
 {
     public class Program
     {
+        private static int mojBroj = 5;
         public static void Ispis()
         {
             Thread.Sleep(5000);
@@ -21,6 +22,7 @@ namespace Niti
                 Console.WriteLine("ANASTASIJA");
                 Console.WriteLine("STREFA");
                 Console.WriteLine("dejo prdonja");
+                Console.WriteLine(mojBroj);
 
                 Thread.Sleep(0);
             }
