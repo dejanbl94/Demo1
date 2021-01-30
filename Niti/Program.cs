@@ -5,7 +5,7 @@ namespace Niti
 {
     public class Program
     {
-        private static int mojBroj = 5;
+        private int mojBroj = 123456;
         public static void Ispis()
         {
             Thread.Sleep(5000);
