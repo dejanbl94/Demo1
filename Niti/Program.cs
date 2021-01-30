@@ -20,6 +20,8 @@ namespace Niti
                 Console.WriteLine("Main thread: {0} ", i);
                 Console.WriteLine("ANASTASIJA");
                 Console.WriteLine("STREFA");
+                Console.WriteLine("dejo prdonja");
+
                 Thread.Sleep(0);
             }
             t.Join();
